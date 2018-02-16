@@ -1,3 +1,3 @@
 # glebaz66.github.io
 github host
-<a href="https://github.com/Glebaz66/glebaz66.github.io/tree/master/Main%20task">Main task</a>
+<a href="glebaz66.github.io/Main%task/index.html">Main task</a>
