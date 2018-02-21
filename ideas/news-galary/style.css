@@ -1,0 +1,102 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: tomato;
+}
+
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+.navbar {
+    margin: 30px auto 0;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    border: 1px solid salmon;
+    /* background-color: rosybrown; */
+    border-radius: 30px 5px;
+}
+
+.navbar li {
+    display: inline;
+    
+}
+
+.navbar a {   
+    display: inline-block;
+    margin: 10px 30px;
+    padding:  5px 10px;
+    text-decoration: none;
+    background-color: #9e5775;
+    border: 2px solid silver;
+    border-radius: 5px 30px;
+    width: 90px;
+}
+.navbar a:hover {
+    border: 2px solid fuchsia;
+    border-radius: 5px 30px;
+    background-color: #9e5775;
+    color: #fff;
+}
+.flex-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.card {
+    margin: auto;
+    padding: 0 20px;
+    /* background-color: #e5a7ff; */
+}
+.card img {
+    width: 100%;
+    border: 1px solid darkred;
+    border-radius: 25px 5px 15px 0;
+}
+
+.text {
+    margin-top: -110px;
+}
+.text h2 {
+    text-align: center;
+    text-shadow: 1px 1px slateblue;
+}
+
+.text > p {
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+.bright {
+    color: #ff4d4d;
+    font-style: oblique;
+    text-shadow: 1px 1px #000;
+}
+.no-margin {
+    margin-top: 0;   
+}
+
+
+button {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
