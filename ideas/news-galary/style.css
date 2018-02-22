@@ -14,7 +14,6 @@ body {
     text-align: center;
     list-style: none;
     border: 1px solid salmon;
-    /* background-color: rosybrown; */
     border-radius: 30px 5px;
 }
 
@@ -49,7 +48,6 @@ body {
 .card {
     margin: auto;
     padding: 0 20px;
-    /* background-color: #e5a7ff; */
 }
 .card img {
     width: 100%;
@@ -57,9 +55,43 @@ body {
     border-radius: 25px 5px 15px 0;
 }
 .card img:hover {
-    box-shadow: 2px 1px bisque;
-    transition-duration: 0.4s;
+    /* box-shadow: 12px 12px bisque; */
+    transition-duration: 1.4s;
+    opacity: 0.4;
 }
+
+.hov1:hover{
+    box-shadow: 12px 12px bisque;
+    margin-left: 5px;
+    
+}
+.hov2:hover{
+    box-shadow: -12px 12px bisque;
+    margin-left: -5px;
+    
+    
+}
+.hov3:hover{
+    box-shadow: -12px -12px bisque;
+    margin-left: 5px;
+    
+}
+.hov4:hover{
+    box-shadow: 12px -12px bisque;
+    margin-left: -5px;
+    
+}
+.hov5:hover{
+    box-shadow: 12px 12px bisque;
+    margin-left: 5px;
+    
+}
+.hov6:hover{
+    box-shadow: -12px 12px bisque;
+    margin-left: -5px;
+   
+}
+
 .text {
     margin-top: -110px;
 }
@@ -81,7 +113,6 @@ body {
 .no-margin {
     margin-top: 0;   
 }
-
 
 button {
     display: inline-block;
