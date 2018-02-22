@@ -56,7 +56,10 @@ body {
     border: 1px solid darkred;
     border-radius: 25px 5px 15px 0;
 }
-
+.card img:hover {
+    box-shadow: 2px 1px bisque;
+    transition-duration: 0.4s;
+}
 .text {
     margin-top: -110px;
 }
@@ -90,13 +93,15 @@ button {
     text-decoration: none;
     background-color: #fff;
     color: #000;
-    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 20px;
 }
 
 
 button:hover {
+    transition-duration: 0.4s;
     background-color: #555555;
     color: white;
+    margin-left: 30px;
+    border-radius: 5px 20px;
 }
